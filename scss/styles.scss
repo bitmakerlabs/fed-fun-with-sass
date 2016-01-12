@@ -1,38 +1,17 @@
-// Variables
+// 1. Variables
 // Make a variable for the width & height
 
 // Make a colour palette
 
-// Set a gutter that can apply to everything (boxes, paragraphs, articles)
+// Set a padding value that can apply to all elements (boxes, paragraphs, articles)
+
+
+// 2. Import Stylesheets
+
+
+// Base Style Rules
 html, body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.red-box {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  background-color: #F44336;
-  color: #ffffff;
-  text-align: center;
-}
-
-.blue-box {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  background-color: #4D4DF3;
-  color: #ffffff;
-  text-align: center;
-}
-
-.green-box {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  background-color: #71EA71;
-  color: #ffffff;
-  text-align: center;
 }
 
 h1 {
@@ -45,4 +24,34 @@ h2 {
 
 p {
   color: #4D4DF3;
+}
+
+// Box Style Rules
+.red-box {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: #F44336;
+  color: #ffffff;
+
+}
+
+.blue-box {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: #4D4DF3;
+  color: #ffffff;
+
+}
+
+.green-box {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: #71EA71;
+  color: #ffffff;
 }
